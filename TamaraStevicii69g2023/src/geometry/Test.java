@@ -24,6 +24,29 @@ public class Test {
 	System.out.println(p1.getY());
 	System.out.println (p2.getY());
 		
-	}
+	
 
-}
+
+// vezba 4
+
+Line l1= new Line ();
+//Linija ima startPoint , endPoint i selected
+
+
+
+l1.setStartPoint(p2);
+l1.setStartPoint(new Point ());
+
+System.out.println(l1.getStartPoint());
+ System.out.println(l1.getEndPoint());
+ System.out.println(l1.isSelected());
+
+ 
+ 
+System.out.println(l1.getStartPoint().getX());
+
+//startPoint: (100,0)
+System.out.println("Duzina linije l1 je" + l1.lenght());
+
+	}
+	}
